@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "name": "Attend Seminar",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "description": "From Harvard",
+      "date": "2024-12-1",
+      "id": "3669"
+    }
+  ]
+}

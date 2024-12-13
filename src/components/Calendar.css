@@ -1,0 +1,47 @@
+.calendar-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    margin-top: 16px;
+  }
+  
+  .day {
+    background: #e9ecef;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .day.has-events {
+    background: #ffeb3b;
+  }
+  
+  .day:hover {
+    background: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .event-indicator {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    color: red;
+    font-size: 12px;
+  }
+  
